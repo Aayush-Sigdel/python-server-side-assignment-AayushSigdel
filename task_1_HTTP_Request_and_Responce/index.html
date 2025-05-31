@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Fetch Example</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    button { padding: 10px 15px; font-size: 16px; }
+    img { margin-top: 20px; max-width: 100%; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <h1>Click to Fetch a Random Image</h1>
+  <button onclick="fetchImage()">Get Image</button>
+  <img id="randomImage" src="" alt="Image will appear here" />
+
+  <script>
+    function fetchImage() {
+      const img = document.getElementById("randomImage");
+      img.src = "https://picsum.photos/600/400?random=" + Math.random();
+    }
+  </script>
+</body>
+</html>
