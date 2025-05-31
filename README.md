@@ -61,7 +61,5 @@ strict-origin-when-cross-origin
 
 When the user clicks the button, the browser sends a `GET` request to the Picsum API to fetch a random image. The request is successfully processed (`200 OK`), and the image is returned as a JPEG. The server allows the image to be cached, and in this case, it was served from a cache (faster). Request and response headers include useful metadata about browser capabilities, image format, caching policy, and network context.
 
----
 
-If you want, I can save this as a `README.md` file for you to download. Just let me know!
 
