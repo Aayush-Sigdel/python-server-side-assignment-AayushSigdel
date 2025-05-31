@@ -1,10 +1,6 @@
 # python-server-side-assignment-AayushSigdel
 # HTTP Request & Response Analysis
 
-## Screenshot Context
-This analysis is based on inspecting a network request triggered by clicking a "Get Image" button on a webpage. The image was fetched using the [Picsum Photos](https://picsum.photos) API.
-
----
 
 ## 📌 Request Details
 
